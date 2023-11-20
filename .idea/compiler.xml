@@ -7,19 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="customer-service" />
-        <module name="gatway" />
+        <module name="gateway" />
         <module name="inventory-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gateway" target="20" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer-service" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="gatway" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
     </option>
   </component>
